@@ -18,7 +18,6 @@ spec:
             - /bin/sh
             - -c
             - date; echo Hello from the Axon-Konduit Job
-            image: busybox
             name: job-container
             resources: {}
           restartPolicy: OnFailure
