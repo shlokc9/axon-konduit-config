@@ -14,7 +14,7 @@ metadata:
     controller: true
     kind: Signal
     name: signal-sample
-    uid: ccc2d898-dd7e-4414-9d71-7b25ce2f0cfa
+    uid: a1969aff-7d30-4a62-bd0c-77f4747df3ed
 spec:
   replicas: 1
   selector:
