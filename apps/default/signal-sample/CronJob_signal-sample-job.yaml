@@ -14,7 +14,7 @@ metadata:
     controller: true
     kind: Signal
     name: signal-sample
-    uid: a1969aff-7d30-4a62-bd0c-77f4747df3ed
+    uid: 35fb24e1-8855-4f78-a295-247e1bb3d74b
 spec:
   jobTemplate:
     metadata:
