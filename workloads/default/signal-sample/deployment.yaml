@@ -19,7 +19,8 @@ spec:
         app: signal-sample
     spec:
       containers:
-      - name: serving-container
+      - image: nginx:1.25
+        name: serving-container
         ports:
         - containerPort: 80
         resources: {}
