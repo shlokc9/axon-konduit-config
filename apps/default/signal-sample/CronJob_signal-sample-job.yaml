@@ -33,5 +33,5 @@ spec:
             name: job-container
             resources: {}
           restartPolicy: OnFailure
-  schedule: '*/5 * * * *'
+  schedule: '*/6 * * * *'
 status: {}
