@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: signal-sample
+  name: signal-sample-serving
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: signal-sample
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: signal-sample
+    spec:
+      containers:
+      - image: nginx
+        name: serving-container
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}
